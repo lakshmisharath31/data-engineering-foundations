@@ -1,25 +1,54 @@
-# 🧭 SQL Foundations Practice
+# 📊 SQL Foundations Practice  
 
-Practice queries and mini-projects for mastering SQL fundamentals — part of my Data Engineering learning roadmap.
+Practice queries and mini-projects for mastering SQL fundamentals — part of my **Data Engineering learning roadmap**.  
+
 ---
 
-## 🧠 Topics Covered
+## 🧠 Topics Covered  
+- Core SQL querying and filtering  
+- Sorting and limiting results  
+- Conditional logic using CASE  
+- Data profiling and aggregation (up next!)  
+- Structured daily practice for portfolio building  
 
-### ✅ Week 1: Core Querying
-- Basic `SELECT` statements
-- Filtering rows using `WHERE`
-- Using logical operators (`AND`, `OR`, `NOT`)
-- Sorting results with `ORDER BY`
-- Limiting rows with `LIMIT`
-- Practicing conditional filters and aliases
 ---
 
-## 🧰 Tools Used
-- **PostgreSQL 16** — database used for all exercises  
-- **pgAdmin 4** — for executing queries and visualizing results  
-- **Git & GitHub** — for version control and project organization  
-- **VS Code** — for editing `.sql` and `.md` files
+## ✅ Week 1: Core Querying  
+
+### 📘 Day 1 – SELECT & Filtering Basics  
+**Folder:** `day1_select_basics/`  
+
+| Task | File | Concepts Covered |
+|------|------|------------------|
+| 1️⃣ Basic SELECT Statements | `select_queries.sql` | Retrieving data from tables |
+| 2️⃣ WHERE Clause | — | Filtering rows with conditions |
+| 3️⃣ Logical Operators | — | Using `AND`, `OR`, and `NOT` |
+| 4️⃣ LIMIT and ORDER BY | — | Sorting and limiting results |
+
+**Key Learnings**  
+- Learned to query specific columns and filter data efficiently.  
+- Practiced logical operators for combining conditions.  
+- Focused on syntax clarity and consistent formatting.  
+
 ---
+
+### 📘 Day 2 – Filtering, Sorting & Conditional Logic  
+**Folder:** `day2_filter_sort/`  
+
+| Task | File | Concepts Covered |
+|------|------|------------------|
+| 1️⃣ DISTINCT Practice | `task1_distinct.sql` | Finding unique values and counting categories using `DISTINCT` and `COUNT(DISTINCT)` |
+| 2️⃣ ORDER BY & LIMIT | `task2_order_limit.sql` | Sorting rows and extracting top/bottom N records |
+| 3️⃣ CASE WHEN Logic | `task3_case_when.sql` | Applying conditional logic for value segmentation |
+
+**Key Learnings**  
+- Used `DISTINCT` for data validation and profiling.  
+- Practiced multi-column sorting with `ORDER BY`.  
+- Implemented `CASE WHEN` for creating logical categories (e.g., High/Medium/Low Value).  
+- Continued maintaining modular SQL files and proper Git commits.  
+
+**Folder Structure**  
+
 
 ## 🪄 How to Use
 
