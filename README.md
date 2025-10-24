@@ -1,3 +1,7 @@
+
+Practice queries and mini-projects for mastering SQL fundamentals — part of my **Data Engineering learning roadmap**.  
+
+---
 # 📊 SQL Foundations Practice  
 
 Practice queries and mini-projects for mastering SQL fundamentals — part of my **Data Engineering learning roadmap**.  
@@ -47,8 +51,24 @@ Practice queries and mini-projects for mastering SQL fundamentals — part of my
 - Implemented `CASE WHEN` for creating logical categories (e.g., High/Medium/Low Value).  
 - Continued maintaining modular SQL files and proper Git commits.  
 
-**Folder Structure**  
+---
 
+### 📘 Day 3 – Aggregations & Grouping  
+**Folder:** `day3_aggregations/`  
+
+| Task | File | Concepts Covered |
+|------|------|------------------|
+| 1️⃣ Basic Aggregations | `task1_basic_aggregates.sql` | Using `SUM`, `AVG`, `COUNT`, `MIN`, `MAX` for numeric summaries |
+| 2️⃣ GROUP BY Practice | `task2_groupby.sql` | Aggregating metrics by region, country, product |
+| 3️⃣ HAVING Clause Filters | `task3_having.sql` | Filtering aggregated groups using `HAVING` and combining with `WHERE` |
+
+**Key Learnings**  
+- Learned to summarize data using aggregate functions.  
+- Differentiated between `WHERE` (row-level filters) and `HAVING` (group-level filters).  
+- Combined both clauses for dual-stage filtering.  
+- Built queries for business-style summaries like *revenue by region* and *top performing countries*.  
+
+---
 
 ## 🪄 How to Use
 

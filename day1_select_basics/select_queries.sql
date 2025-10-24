@@ -1,11 +1,11 @@
-
-
 -- ========================================================
--- Day 1: SELECT & WHERE Clause Basics
--- Author: Lakshmi Sharath
--- Description: Practice file to learn basic SQL querying
--- Database: PostgreSQL
+-- Author: Lakshmi Sharath (@lakshmisharath31)
+-- Project: SQL Foundations Practice
+-- Week: 1 — SELECT and WHERE Queries
+-- Description: Practice queries for learning SELECT, WHERE,
+--              ORDER BY, and filtering basics in PostgreSQL.
 -- ========================================================
+
 
 CREATE TABLE sales (
     order_id INT,
