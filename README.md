@@ -70,23 +70,29 @@ Practice queries and mini-projects for mastering SQL fundamentals — part of my
 
 ---
 
-### 📘 Day 4 – Joins
-**Folder:** `day4_joins/`
+### 📘 Day 4 – Joins & Relationships  
+**Folder:** `day4_joins/`  
 
 | Task | File | Concepts Covered |
 |------|------|------------------|
-| 1️⃣ INNER JOIN | `task1_inner_join.sql` | Return only matching rows across tables |
-| 2️⃣ LEFT & RIGHT JOIN | `task2_left_right_join.sql` | Compare row preservation between LEFT and RIGHT joins |
-| 3️⃣ FULL OUTER JOIN | `task3_full_outer_join.sql` | Include non-matching rows from both sides |
-| 4️⃣ JOIN + Aggregation | `task4_join_with_aggregation.sql` | Combine joins with `GROUP BY` for summaries |
+| 1️⃣ INNER JOIN | `task1_inner_join.sql` | Match only customers who made purchases |
+| 2️⃣ LEFT JOIN | `task2_left_join.sql` | Include all customers, even with no sales |
+| 3️⃣ RIGHT JOIN | `task3_right_join.sql` | Include all sales, even if customer missing |
+| 4️⃣ FULL OUTER JOIN | `task4_full_outer_join.sql` | Combine all data from both tables |
+| 5️⃣ JOIN + Aggregation | `task5_join_with_aggregation.sql` | Calculate total spending and purchase count per customer |
 
-**Key Learnings**
-- Use INNER JOIN for strict matches.
-- Use LEFT/RIGHT JOIN to detect missing relationships.
-- Use FULL OUTER JOIN to see everything (matched + unmatched).
-- Combine joins with aggregations for analytics-ready datasets.
+**Key Learnings**  
+- `INNER JOIN` → Retrieves rows existing in **both** tables.  
+- `LEFT JOIN` → Returns all rows from the left table (**customers**), even if no sales match.  
+- `RIGHT JOIN` → Returns all rows from the right table (**sales**), even if no customer match.  
+- `FULL OUTER JOIN` → Combines all rows from both sides, filling missing values with `NULL`.  
+- Joins combined with `GROUP BY` enable summary reports like total spending or purchase counts.  
 
 ---
+
+## 📂 Folder Structure  
+
+
 
 ## 📂 Datasets
 
@@ -113,27 +119,29 @@ ___
 ## 📂 Folder Structure
 sql-foundations-practice/
 │
-├── README.md
 ├── datasets/
-│   ├── sales.csv
-│   ├── employees.csv
-│   └── customers.csv
+│ ├── customers.csv
+│ ├── sales.csv
+│ └── employees.csv
 │
 ├── day1_select_basics/
-│   └── select_queries.sql
+│ └── select_queries.sql
 │
 ├── day2_filter_sort/
-│   └── filtering_sorting.sql
+│ ├── task1_distinct.sql
+│ ├── task2_order_limit.sql
+│ └── task3_case_when.sql
 │
 ├── day3_aggregations/
-│   └── groupby_having.sql
+│ ├── task1_basic_aggregates.sql
+│ ├── task2_groupby.sql
+│ └── task3_having.sql
 │
 ├── day4_joins/
-│   └── joins_practice.sql
+│ ├── task1_inner_join.sql
+│ ├── task2_left_join.sql
+│ ├── task3_right_join.sql
+│ ├── task4_full_outer_join.sql
+│ └── task5_join_with_aggregation.sql
 │
-├── day5_subqueries_ctes/
-│   └── subquery_cte_examples.sql
-│
-└── mini_project_sales_analysis/
-    ├── sales_analysis.sql
-    └── results_screenshots/
+└── README.md
