@@ -83,6 +83,23 @@ The dataset `sales_data.csv` was renamed to `sales.csv` for consistency with SQL
 
 ---
 
+### 📘 Day 4 – Joins
+**Folder:** `day4_joins/`
+
+| Task | File | Concepts Covered |
+|------|------|------------------|
+| 1️⃣ INNER JOIN | `task1_inner_join.sql` | Return only matching rows across tables |
+| 2️⃣ LEFT & RIGHT JOIN | `task2_left_right_join.sql` | Compare row preservation between LEFT and RIGHT joins |
+| 3️⃣ FULL OUTER JOIN | `task3_full_outer_join.sql` | Include non-matching rows from both sides |
+| 4️⃣ JOIN + Aggregation | `task4_join_with_aggregation.sql` | Combine joins with `GROUP BY` for summaries |
+
+**Key Learnings**
+- Use INNER JOIN for strict matches.
+- Use LEFT/RIGHT JOIN to detect missing relationships.
+- Use FULL OUTER JOIN to see everything (matched + unmatched).
+- Combine joins with aggregations for analytics-ready datasets.
+
+---
 ## 🪄 How to Use
 
 1. Clone this repository:
