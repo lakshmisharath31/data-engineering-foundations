@@ -70,28 +70,27 @@ Practice queries and mini-projects for mastering SQL fundamentals — part of my
 
 ---
 
-### 📘 Day 4 – Joins & Relationships  
+---
+
+### 📘 Day 4 – SQL Joins (Combining Multiple Tables)  
 **Folder:** `day4_joins/`  
 
 | Task | File | Concepts Covered |
 |------|------|------------------|
-| 1️⃣ INNER JOIN | `task1_inner_join.sql` | Match only customers who made purchases |
-| 2️⃣ LEFT JOIN | `task2_left_join.sql` | Include all customers, even with no sales |
-| 3️⃣ RIGHT JOIN | `task3_right_join.sql` | Include all sales, even if customer missing |
-| 4️⃣ FULL OUTER JOIN | `task4_full_outer_join.sql` | Combine all data from both tables |
-| 5️⃣ JOIN + Aggregation | `task5_join_with_aggregation.sql` | Calculate total spending and purchase count per customer |
+| 1️⃣ INNER JOIN | `task1_inner_join.sql` | Combine matching rows between `customers` and `sales` |
+| 2️⃣ LEFT JOIN | `task2_left_join.sql` | Include all customers, even those without sales |
+| 3️⃣ RIGHT JOIN | `task3_right_join.sql` | Include all sales, even if customer info is missing |
+| 4️⃣ FULL OUTER JOIN | `task4_full_outer_join.sql` | Combine all customers and all sales, matched or not |
+| 5️⃣ JOIN + Aggregation | `task5_join_with_aggregation.sql` | Calculate total spend and number of orders per customer |
 
 **Key Learnings**  
-- `INNER JOIN` → Retrieves rows existing in **both** tables.  
-- `LEFT JOIN` → Returns all rows from the left table (**customers**), even if no sales match.  
-- `RIGHT JOIN` → Returns all rows from the right table (**sales**), even if no customer match.  
-- `FULL OUTER JOIN` → Combines all rows from both sides, filling missing values with `NULL`.  
-- Joins combined with `GROUP BY` enable summary reports like total spending or purchase counts.  
+- Mastered different types of SQL joins — INNER, LEFT, RIGHT, and FULL OUTER.  
+- Learned to combine datasets logically using `ON` conditions.  
+- Practiced handling NULLs in join outputs.  
+- Created analytical queries that combine JOIN with `GROUP BY` and aggregations.  
+- Reinforced real-world business scenarios such as identifying top customers and orphaned sales records.
 
 ---
-
-## 📂 Folder Structure  
-
 
 
 ## 📂 Datasets
