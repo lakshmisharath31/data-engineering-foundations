@@ -70,19 +70,6 @@ Practice queries and mini-projects for mastering SQL fundamentals — part of my
 
 ---
 
-## 📂 Datasets
-
-| File | Description |
-|------|--------------|
-| `sales.csv` | Main dataset used for Day 1–Day 3 exercises. Contains columns like `Order ID`, `Region`, `Country`, `Product`, `Quantity`, `Price`, and `Order_Date`. |
-| `customers.csv` | Supplementary dataset for future join and subquery exercises. |
-| `employees.csv` | Reference dataset for employee and department-related tasks. |
-
-**Note:**  
-The dataset `sales_data.csv` was renamed to `sales.csv` for consistency with SQL scripts and query examples (which reference `FROM sales`).
-
----
-
 ### 📘 Day 4 – Joins
 **Folder:** `day4_joins/`
 
@@ -100,6 +87,21 @@ The dataset `sales_data.csv` was renamed to `sales.csv` for consistency with SQL
 - Combine joins with aggregations for analytics-ready datasets.
 
 ---
+
+## 📂 Datasets
+
+| File | Description |
+|------|--------------|
+| `sales.csv` | Main dataset used for Day 1–Day 3 exercises. Contains columns like `Order ID`, `Region`, `Country`, `Product`, `Quantity`, `Price`, and `Order_Date`. |
+| `customers.csv` | Supplementary dataset for future join and subquery exercises. |
+| `employees.csv` | Reference dataset for employee and department-related tasks. |
+
+**Note:**  
+The dataset `sales_data.csv` was renamed to `sales.csv` for consistency with SQL scripts and query examples (which reference `FROM sales`).
+
+---
+
+
 ## 🪄 How to Use
 
 1. Clone this repository:
