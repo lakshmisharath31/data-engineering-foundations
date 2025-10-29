@@ -92,6 +92,18 @@ Practice queries and mini-projects for mastering SQL fundamentals — part of my
 
 ---
 
+### 📘 Day 5 – Subqueries & CTEs (Modular SQL for Analytics)  
+**Folder:** `day5_subqueries_ctes/`
+
+| Task | File | Concepts Covered |
+|------|------|------------------|
+| 1️⃣ Subquery Basics | `task1_subquery.sql` | Use nested SELECT queries for dynamic filtering |
+| 2️⃣ CTE Basics | `task2_cte_basics.sql` | Simplify logic with reusable query blocks using `WITH` |
+| 3️⃣ CTE with Aggregations | `task3_cte_aggregations.sql` | Compute total spend and filter high-value customers |
+| 4️⃣ Multi-Step CTE Chain | `task4_multi_cte_chain.sql` | Chain CTEs to create step-wise ETL-style transformations |
+| 5️⃣ CTE + Joins Mix | `task5_cte_join_mix.sql` | Combine joins, CTEs, and aggregations for customer insights |
+
+---
 
 ## 📂 Datasets
 
@@ -106,7 +118,6 @@ The dataset `sales_data.csv` was renamed to `sales.csv` for consistency with SQL
 
 ---
 
-
 ## 🪄 How to Use
 
 1. Clone this repository:
@@ -115,32 +126,40 @@ The dataset `sales_data.csv` was renamed to `sales.csv` for consistency with SQL
    cd sql-foundations-practice
 ___
 
-## 📂 Folder Structure
+## 📂 Final Folder Structure — Week 1: SQL Foundations Practice
+
 sql-foundations-practice/
 │
+├── README.md
+│
 ├── datasets/
-│ ├── customers.csv
-│ ├── sales.csv
-│ └── employees.csv
+│   ├── sales.csv
+│   ├── customers.csv
+│   └── employees.csv
 │
 ├── day1_select_basics/
-│ └── select_queries.sql
+│   └── select_queries.sql
 │
 ├── day2_filter_sort/
-│ ├── task1_distinct.sql
-│ ├── task2_order_limit.sql
-│ └── task3_case_when.sql
+│   ├── task1_distinct.sql
+│   ├── task2_order_limit.sql
+│   └── task3_case_when.sql
 │
 ├── day3_aggregations/
-│ ├── task1_basic_aggregates.sql
-│ ├── task2_groupby.sql
-│ └── task3_having.sql
+│   ├── task1_basic_aggregates.sql
+│   ├── task2_groupby.sql
+│   └── task3_having.sql
 │
 ├── day4_joins/
-│ ├── task1_inner_join.sql
-│ ├── task2_left_join.sql
-│ ├── task3_right_join.sql
-│ ├── task4_full_outer_join.sql
-│ └── task5_join_with_aggregation.sql
+│   ├── task1_inner_join.sql
+│   ├── task2_left_join.sql
+│   ├── task3_right_join.sql
+│   ├── task4_full_outer_join.sql
+│   └── task5_join_with_aggregation.sql
 │
-└── README.md
+└── day5_subqueries_ctes/
+    ├── task1_subquery.sql
+    ├── task2_cte_basics.sql
+    ├── task3_cte_aggregations.sql
+    ├── task4_multi_cte_chain.sql
+    └── task5_cte_join_mix.sql
