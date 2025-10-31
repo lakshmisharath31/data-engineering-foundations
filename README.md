@@ -22,21 +22,21 @@ complete with day-wise exercises, week-wise folders, datasets, and project-based
 
 ## 🪄 How to Use
 
-1. **Clone this repository:**
+ 1. **Clone this repository:**
 
    git clone https://github.com/lakshmisharath31/data-engineering-foundations.git
    cd data-engineering-foundations
 
-2. Explore Week-wise practice folders:
+ 2. Explore Week-wise practice folders:
    Each week covers one major theme (SQL, Python, ETL, etc.)
    Inside each week, folders are organized day-wise
    Every day folder has its own .sql or .py scripts with examples and tasks
 
-3. Use the datasets:
+ 3. Use the datasets:
    Located under /datasets
    You can load these into PostgreSQL, SQLite, or Pandas for practice
 
-4.Progress gradually:
+ 4.Progress gradually:
    Week 1–2 → SQL Fundamentals & Analytics
    Week 3–4 → Python Data Engineering
    Week 5–6 → ETL Projects
