@@ -1,2 +1,38 @@
+# --- Python cache and build files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+env/
+venv/
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- Data & temporary files ---
+*.log
+*.tmp
+*.bak
+*.csv~
+*.xlsx~
+*.json~
+*.zip
 .DS_Store
-.DS_Store
+
+# --- IDE & OS files ---
+.vscode/
+.idea/
+Thumbs.db
+
+# --- Output folders ---
+charts/
+output/
+sales_output_cleaned.csv
